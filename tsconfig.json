@@ -1,13 +1,20 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
-		"module": "ESNext",
+		"allowSyntheticDefaultImports": true,
+		"lib": ["ES2022", "DOM"],
+		"module": "CommonJS",
 		"moduleResolution": "node",
-		"strict": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true,
+		"target": "ES2022",
 		"forceConsistentCasingInFileNames": true,
-		"lib": ["ESNext"],
-		"types": ["assemblyscript"]
-	}
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"skipLibCheck": true,
+		"noImplicitOverride": true,
+		"outDir": "./dist",
+		"declaration": true,
+		"declarationMap": true
+	},
+	"include": ["src", "index.ts"],
+	"exclude": ["dist"]
 }
