@@ -1,0 +1,31 @@
+# Ownership for the Inference Package
+
+/packages/inference/ @jameslambert-c @jameslambert @jameslambert
+
+# Ownership for the Tasks Package
+
+/packages/tasks/ @jameslambert @jameslambert @jameslambert @jameslambert-c @jameslambert @jameslambert
+
+# Ownership for the Hub Package
+
+/packages/hub/ @jameslambert
+
+# Ownership for the Agents Package
+
+/packages/agents/ @jameslambert
+
+# Ownership for the Jinja Package
+
+/packages/jinja/ @jameslambert
+
+# Ownership for the gguf Package
+
+/packages/gguf @jameslambert @jameslambert @jameslambert-c
+
+# Ownership for the space-header Package
+
+/packages/space-header @jameslambert
+
+# Ownership for the ollama-utils Package
+
+/packages/ollama-utils @jameslambert
